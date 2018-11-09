@@ -1,0 +1,34 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Dotum,'돋움',Helvetica,"Apple SD Gothic Neo",sans-serif;
+    font-size: 18px;
+}
+
+body {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+    background-color: antiquewhite;
+}
+
+.container {
+    width: 330px;
+    height: 510px;
+    background-image: url('two.jpg');
+    background-size: cover;
+    border-radius: 3px;
+    color: #fff;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding-top: 20px;
+}
+
+span {
+    background-image: url('psh.gif');
+    font-weight: bold;
+    text-shadow: 0 0 20px rgba(0, 0, 0, 1);
+}
